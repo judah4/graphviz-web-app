@@ -101,7 +101,7 @@
             </ul>
         </dropdown>
         <li v-else><a href="#" @click="login">Login</a></li>
-        <li><a href="#" @click="helloLambda">Test lambda</a></li>
+        <!-- <li><a href="#" @click="helloLambda">Test lambda</a></li> -->
       </ul>
     </div><!-- /.navbar-collapse -->
   <!-- </transition> -->
