@@ -7,7 +7,7 @@
           <span class="hidden-xs">Settings <span class="caret"></span></span></button>
         </button> -->
         <!-- disable png export for now bc. scaling issue -->
-        
+
           <!-- <div class="dropdown-menu"  v-if="showExportSettings" :aria-expanded="showExportSettings">
           <div class="form-group">
               <label label-for="scale-input">Scale <small>(only raster image)</small></label>
@@ -19,10 +19,10 @@
       <!-- </div>
       <div class="btn-group save-buttons"> -->
         <!-- disable PNG saving - re-add later -->
-        <!-- <button title="save as png" class="btn btn-default navbar-btn" @click="savePNG" aria-label="Left Align">
+        <button title="save as png" class="btn btn-default navbar-btn" @click="savePNG" aria-label="Left Align">
           <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
             <span class="save-button-label">(PNG)</span>
-          </button> -->
+          </button>
           <button title="save as svg" class="btn btn-default navbar-btn" @click="saveSVG"aria-label="Left Align">
             <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span>
             <span class="save-button-label">(SVG)</span>
